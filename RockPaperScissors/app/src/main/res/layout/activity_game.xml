@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hikoharu.rockpaperscissors.GameActivity">
+
+    <!-- view for AdMob Banner Ad -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+    <ImageView
+        android:id="@+id/rock"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/selfColor"
+        ads:srcCompat="@drawable/rock"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_above="@+id/adView"
+        android:layout_toRightOf="@+id/target"
+        android:layout_toEndOf="@+id/target"
+        android:layout_marginBottom="38dp" />
+
+    <ImageView
+        android:id="@+id/target"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/selfColor"
+        android:layout_above="@+id/result" />
+
+    <TextView
+        android:id="@+id/operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+    <Button
+        android:id="@+id/sampleStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/peper"
+        android:layout_alignRight="@+id/peper"
+        android:layout_below="@+id/result"
+        android:layout_marginTop="19dp"
+        android:text="スタート" />
+
+</RelativeLayout>

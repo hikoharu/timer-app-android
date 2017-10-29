@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "187409669034",
+    "firebase_url": "https://muscle-39e03.firebaseio.com",
+    "project_id": "muscle-39e03",
+    "storage_bucket": "muscle-39e03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187409669034:android:5d077b55ef148234",
+        "android_client_info": {
+          "package_name": "com.hikoharu.muscletrainingsw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187409669034-3o5ufek7gpncae91notta1s3t9ni95fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPUBJTaduI2LGUquSuMAEHUucfxddtguk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
